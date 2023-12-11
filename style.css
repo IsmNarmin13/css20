@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elements {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 50px;
+}
+
+.leftElement {
+    height: 300px;
+    width: 300px;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+
+.circle1 {
+    background-color: #003d1c;
+    height: 98%;
+}
+
+.circle2 {
+    background-color: #ccd1d7;
+    margin-left: 5px;
+    height: 100%;
+
+}
+
+.circle1,
+.circle2 {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.sector {
+    border-bottom-left-radius: 100%;
+    background-color: #56c288;
+    width: 100%;
+    height: 100%;
+}
+
+.squad {
+    background-color: #6875ec;
+    border-radius: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.middleElement {
+    background-color: red;
+    width: 280px;
+    height: 130px;
+    border-radius: 30%;
+    margin-left: 50px;
+    margin: auto;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 35px solid transparent;
+    border-top: 35px solid transparent;
+    border-left: 40px solid white;
+    margin: auto;
+    margin-top: 35px;
+}
+
+
+
+
+.a {
+    height: 146px;
+    width: 150px;
+}
+
+.firstEl1 {
+    height: 100%;
+}
+
+.sec4 {
+    background-color: #f6b800;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 10%;
+}
+
+.sec3 {
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 10%;
+    background-color: #f6b800;
+}
+
+.sec5 {
+    background-color: #e64132;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 10%;
+}
+
+.sec7 {
+    background-color: #e64132;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 10%;
+}
+
+.sec10 {
+    background-color: #31a452;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 10%;
+}
+
+.sec12 {
+    background-color: #31a452;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 10%;
+}
+
+.sec13 {
+    background-color: #4081ef;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 10%;
+}
+
+.sec14 {
+    background-color: #4081ef;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 10%;
+}
+
+.circleR1 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
